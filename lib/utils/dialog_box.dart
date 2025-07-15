@@ -25,7 +25,7 @@ class DialogBox extends StatelessWidget {
               controller: controller,
               decoration: InputDecoration(
                 border: OutlineInputBorder(),
-                hintText: 'Add a new task',
+                hintText: 'Adicionar Produto',
               ),
             ),
             Row(

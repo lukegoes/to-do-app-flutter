@@ -15,8 +15,12 @@ class MyApp extends StatelessWidget {
       home: HomePage(),
       theme: ThemeData(
         fontFamily: 'Poppins',
-        colorScheme: ColorScheme.fromSeed(seedColor: Color.fromARGB(255, 255, 251, 4)),
-        appBarTheme: AppBarTheme(backgroundColor: Color.fromARGB(255, 255, 251, 4)),
+        colorScheme: ColorScheme.fromSeed(seedColor: const Color(0xFFFFD966)),
+        appBarTheme: AppBarTheme(
+          backgroundColor: Color(0xFFFFD966),
+          centerTitle: true,
+          
+        ),
       ),
     );
   }
