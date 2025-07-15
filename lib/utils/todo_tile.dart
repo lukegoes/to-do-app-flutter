@@ -29,6 +29,10 @@ class ToDoTile extends StatelessWidget {
             style: TextStyle(
               decoration: taskCompleted ? TextDecoration.lineThrough : null,
             ),),
+
+            Row(children: [
+              
+            ],)
           ],
         ),
       ),
